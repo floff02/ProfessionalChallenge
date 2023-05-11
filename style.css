@@ -1,0 +1,90 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding-bottom: 10%;
+    box-sizing: border-box;
+  }
+
+  .NavBar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: white
+    ;
+  }
+
+  .PSPLogo {
+    display: flex;
+  }
+
+  .PSPLogopng {
+      width: 250px;
+  }
+
+  .Button {
+    width: 225px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid black;
+    outline: none;
+    border-radius:6px;
+    cursor: pointer;
+    font-size: 1.3em;
+    color: black;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: .5s;
+  }
+
+  .Button:hover {
+    background-color: #162938;
+  }
+
+  .Buttons {
+    align-items: center;
+    justify-content: center;
+    padding-top: 1%;
+  }
+  
+  .main{
+    display: flex;
+    background-color: #c6c6c6;
+  }
+
+  .row{ 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .column{
+    flex-direction: column;
+    width: 31%;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  .column legend {
+    font-size: 1.1em;
+    
+  }
+  .topmain {
+    font-size: 1.2em;
+    padding: 1em;
+    text-align: center;
+  }
+  
+
+ .ProfilePrev {
+    margin-bottom: 2%;
+    min-height: 625px;
+ }
+ .StudentIcon {
+    height: 400px;
+ }
+ .ProfilePrev h2 {
+    margin-bottom: 2%;
+ }

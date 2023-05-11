@@ -88,3 +88,61 @@ html, body {
  .ProfilePrev h2 {
     margin-bottom: 2%;
  }
+ .scancolumn{
+  flex-direction: column;
+  width: 48%;
+  text-align: center;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.cliniccolumn{
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+ @media only screen and (max-width: 600px) {
+  .column{
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+  .Button {
+    width: 125px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid black;
+    outline: none;
+    border-radius:6px;
+    cursor: pointer;
+    font-size: 0.8em;
+    color: black;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: .5s;
+    margin-right: 1%;
+  }
+ }
+ @media only screen and (max-width: 1000px) and (min-width: 600px) {
+  .column{
+    flex-direction: column;
+    width: 45%;
+    text-align: center;
+ }
+}
+@media only screen and (max-width: 750px) {
+  .scancolumn{
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+}
+
+.map {
+  width: 100%;
+  height: 500px;
+}
